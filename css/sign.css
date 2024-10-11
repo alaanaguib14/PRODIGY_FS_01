@@ -1,0 +1,97 @@
+/* Styling the signup container */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../img/background-3840x2160-8324.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 40px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+.error-message {
+    color: #ff6b6b;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.btn {
+    min-width: 50%;
+    padding: 10px;
+    background-color: #9767d9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+    background-color: #805AD5;
+}
+
+.already-account {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.already-account a {
+    color: #5eb75c;
+    text-decoration: none;
+}
+
+.already-account a:hover {
+    text-decoration: underline;
+}
+
+.alert{
+    background-color: red;
+    opacity: 65%;
+    color: white;
+    padding: 3%;
+    text-align: center;
+    border: none;
+    width: fit-content;
+    margin: 16px auto;
+    border-radius: 5px;
+}

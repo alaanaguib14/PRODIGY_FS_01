@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: url('../img/background-3840x2160-8324.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+
+}
+
+.otp-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.otp-container h2 {
+    margin-bottom: 20px;
+}
+
+.otp-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.otp-field input {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 18px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    margin: 0 5px;
+    color: #fff;
+}
+
+.otp-field input:focus {
+    outline: none;
+    border: 1px solid #9767d9;
+}
+
+.btn {
+    min-width: 50%;
+    padding: 10px;
+    background-color: #9767d9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn[disabled] {
+    background-color: #ddd;
+    cursor: not-allowed;
+    color: black;
+}
+
+.btn.active {
+    background-color: #9767d9;
+}
+
+.btn.active:hover{
+    background-color: #805AD5;
+}
+
+.resend-container {
+    margin-top: 15px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resend-container span {
+    margin-right: 5px;
+}
+
+.resend-btn {
+    background: none;
+    border: none;
+    color: #5eb75c;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.resend-btn:hover {
+    text-decoration: underline;
+}
+.alert{
+    background-color: red;
+    opacity: 65%;
+    color: white;
+    padding: 3%;
+    text-align: center;
+    border: none;
+    width: fit-content;
+    margin: 16px auto;
+    border-radius: 5px;
+}
